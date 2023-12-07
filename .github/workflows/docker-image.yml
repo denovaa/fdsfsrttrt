@@ -26,7 +26,7 @@ jobs:
       - run: ssh -o "StrictHostKeyChecking no"  'denovaa-fdsfsrttrt-vdpjdy6hvh3#wsbRUVU2O5TPONgSup6tzfaQQEAgSDC6@denovaa-fdsfsrttrt-vdpjdy6hvh3.ssh.ws-eu106.gitpod.io' 'cd /workspace/fdsfsrttrt && docker compose pull && docker compose up -d'
       - name: send telegram message on push
         uses: appleboy/telegram-action@master
-        if: sucess()
+        if: sucсess()
         with:
           to: 780637924
           token: 6785385978:AAFd2sFCSPkcKvwiQ_InWHwIhL3vZLTObME 

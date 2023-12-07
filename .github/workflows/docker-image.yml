@@ -22,5 +22,7 @@ jobs:
 
       - run: docker build -t ghcr.io/denovaa/fgr534ffd:1.0 .
       - run: docker push ghcr.io/denovaa/fgr534ffd:1.0
+
+      - run: ssh -o "StrictHostKeyChecking no" 'denovaa-fdsfsrttrt-vdpjdy6hvh3@denovaa-fdsfsrttrt-vdpjdy6hvh3.ssh.ws-eu106.gitpod.io' 'cd /workspace/fdsfsrttrt && docker compose pull && docker compose up -d'
       
 
